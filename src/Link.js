@@ -2,7 +2,8 @@ import React from 'react';
 
 function Link(props) {
   return (
-    <div>
+      <div>
+      <h1>{props.number}</h1>
       <a href={props.url}>{props.name}</a>
     </div>
   );
