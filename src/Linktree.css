@@ -3,19 +3,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 60vh;
 }
 
-.link {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
-  text-decoration: none;
-  padding: 10rem;
+
+ a {
+  border: 2px solid black;
+  width: 30%;
+  padding: 0.2rem;
+  padding-left:2em;
+  padding-right:2em;
+  margin-bottom: 10rem;
+  min-width: 50px;
+  gap:30px;
+  font-size: 20px;
 }
 
-.link:hover {
-  color: #0077b5;
+
+div {
+    margin-bottom: 1em;
+    min-height: 40px;
+
 }

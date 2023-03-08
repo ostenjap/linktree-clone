@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Linktree from './exportLinktree';
+import Heading from './Heading';
 
 const root1 = ReactDOM.createRoot(document.getElementById('root'));
 root1.render(
   <React.StrictMode>
+    <Heading />
     <Linktree />
   </React.StrictMode>
 );
