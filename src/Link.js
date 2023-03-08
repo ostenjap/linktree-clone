@@ -1,11 +1,10 @@
 import React from 'react';
-import './Linktree.css';
+import './Links.css';
 
 function Link(props) {
   return (
       <div>
-      <h1>{props.number}</h1>
-      <a href={props.url}>{props.name}</a>
+        <a href={props.url}>{props.name}</a>
     </div>
   );
 }

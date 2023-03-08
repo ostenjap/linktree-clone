@@ -1,0 +1,15 @@
+a {
+  border: 2px solid black;
+  width: 30%;
+ padding: 0.2rem;
+  padding-left:2em;
+  padding-right:2em;
+  margin-bottom: 10rem;
+  min-width: 50px;
+  gap:30px;
+}
+div {
+    margin-bottom: 1em;
+    min-height: 40px;
+    min-width: 50px;
+}
