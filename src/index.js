@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Linktree from './exportLinktree';
 
 const root1 = ReactDOM.createRoot(document.getElementById('root'));
 root1.render(
   <React.StrictMode>
-    {/* <App />
-    <App /> */}
     <Linktree />
   </React.StrictMode>
 );
