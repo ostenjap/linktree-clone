@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  border: #0077b5;
+  border-style: solid;
 }
 
 .link {
@@ -13,6 +15,8 @@
   font-weight: bold;
   color: #333;
   text-decoration: none;
+  border-radius: 5px;
+
 }
 
 .link:hover {

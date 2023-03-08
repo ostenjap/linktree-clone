@@ -1,4 +1,5 @@
 import React from 'react';
+import './Linktree.css';
 
 function Link(props) {
   return (
