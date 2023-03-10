@@ -3,7 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height:75vh;
+}
+  @media only screen and (max-width: 391px) {
+  .linktree-container {
+    height: 65vh;
+  }
 }
 
 
@@ -19,6 +24,12 @@
   font-size: 20px;
   text-decoration: none;
   font-family: 'Roboto',;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+a:visited {
+    color: blue;
 }
 
 
